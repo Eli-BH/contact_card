@@ -16,3 +16,9 @@ class ContactCard extends Component{
     }
 }
 
+ContactCard.prototype ={
+    name: PropTypes.string.isRequired,
+    mobile: PropTypes.string.isRequired,
+    work: PropTypes.string,
+    email: PropTypes.string.isRequired
+}
